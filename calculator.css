@@ -1,0 +1,98 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+#screen{
+    text-align: right;
+    font-size: 30px;
+}
+
+.calci{
+    border: 3px solid darkslategray;
+    background-color: darkslategrey;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+input[type=text]{
+    border: 2px solid grey;
+    border-radius: 5px;
+    height: 60px;
+    width: 95%;
+    margin-left: 10px;
+    font-size: 20px;
+    
+}
+
+.box1{
+    display: flex;
+    /* border: 3px solid red; */
+    background-color: darkslategrey;
+    border-radius: 10px;
+    width: 95%;
+    height: 60px;
+    margin: 10px 15px;
+}
+
+.box2{
+    display: flex;
+    /* border: 3px solid red; */
+    background-color: darkslategrey;
+    border-radius: 10px;
+    width: 95%;
+    height: 60px;
+    margin: 20px 15px;
+}
+
+.box3{
+    display: flex;
+    /* border: 3px solid red; */
+    background-color: darkslategrey;
+    border-radius: 10px;
+    width: 95%;
+    height: 60px;
+    margin: 20px 15px;
+}
+
+.box4{
+    display: flex;
+    /* border: 3px solid red; */
+    background-color: darkslategrey;
+    border-radius: 10px;
+    width: 95%;
+    height: 60px;
+    margin: 20px 15px;
+}
+
+.box5{
+    display: flex;
+    /* border: 3px solid red; */
+    background-color: darkslategrey;
+    border-radius: 10px;
+    width: 95%;
+    height: 60px;
+    margin: 20px 15px;
+}
+
+.button{
+    font-size: 20px;
+    width: 100px;
+    height: 70px;
+    /* padding: 20px; */
+    margin: 5px 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(211, 208, 208);
+}

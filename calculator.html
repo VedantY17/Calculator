@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calculator.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <h1>Calculator- It makes your Life Easier!</h1>
+
+    <div class="calci">
+        <input type="text" id="screen">
+
+        <div class="box1">
+            <button class="button" onclick="clr()">C</button>
+            <button class="button">%</button>
+            <button class="button" onclick="del()"><i class="fa-solid fa-delete-left"></i></button>
+            <button class="button" onclick="calculate(`/`)">/</button>
+        </div>
+
+        <div class="box2">
+            <button class="button" onclick="calculate(7)">7</button>
+            <button class="button" onclick="calculate(8)">8</button>
+            <button class="button" onclick="calculate(9)">9</button>
+            <button class="button" onclick="calculate(`*`)">X</button>
+        </div>
+
+        <div class="box3">
+            <button class="button" onclick="calculate(4)">4</button>
+            <button class="button" onclick="calculate(5)">5</button>
+            <button class="button" onclick="calculate(6)">6</button>
+            <button class="button" onclick="calculate(`-`)">-</button>
+        </div>
+
+        <div class="box4">
+            <button class="button" onclick="calculate(1)">1</button>
+            <button class="button" onclick="calculate(2)">2</button>
+            <button class="button" onclick="calculate(3)">3</button>
+            <button class="button" onclick="calculate(`+`)">+</button>
+        </div>
+
+        <div class="box5">
+            <button class="button">( )</button>
+            <button class="button" onclick="calculate(0)">0</button>
+            <button class="button">.</button>
+            <button class="button" style="background-color: rgb(10, 77, 77); color: white; font-size: 30px;" onclick="total()">=</button>
+        </div>
+    </div>
+
+
+<script src="./calculator.js"></script>
+</body>
+
+</html>
